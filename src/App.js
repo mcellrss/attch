@@ -13,7 +13,7 @@ const navigation = [
   { name: 'Company', href: '#' },
 ]
 
-export default function App() {
+function App() {
   return (
     <div className="relative bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -153,10 +153,10 @@ export default function App() {
         />
       </div>
     </div>
-  )
-  
+  );
 }
 
+export default App;
 
 /*function App() {
   return (
