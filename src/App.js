@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
 
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
