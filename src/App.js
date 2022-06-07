@@ -99,8 +99,8 @@ export default function App() {
               <span className="sr-only">Attch</span>
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                alt=""
+                src="https://github.com/mcellrss/attch/blob/main/src/Attch_.svg"
+                alt="attach"
               />
             </a>
           </div>
