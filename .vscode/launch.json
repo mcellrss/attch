@@ -5,7 +5,7 @@
             "type": "pwa-chrome",
             "name": "localhost:8000",
             "request": "launch",
-            "url": "localhost:8000"
+            "url": "http://localhost:8080"
         }
     ]
 }
