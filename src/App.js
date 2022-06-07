@@ -99,7 +99,7 @@ export default function App() {
               <span className="sr-only">Attch</span>
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://github.com/mcellrss/attch/blob/main/src/Attch_.svg"
+                src="https://raw.githubusercontent.com/mcellrss/attch/main/src/attch_.svg?token=GHSAT0AAAAAABVLPKVCTGYCSCQBLV5FT4DMYU7FAPA"
                 alt="attach"
               />
             </a>
