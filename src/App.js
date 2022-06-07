@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
 
 /* This example requires Tailwind CSS v2.0+ */
