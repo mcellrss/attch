@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { BellIcon, MenuIcon, XIcon, ViewGridIcon } from '@heroicons/react/outline'
 
 const user = {
   name: 'Tom Cook',
@@ -29,22 +29,21 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
+      {/* BG */}
       <div className="min-h-full">
+        
+        {/* Nav */}
         <Disclosure as="nav" className="bg-white">
           {({ open }) => (
             <>
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                  <div className="flex items-center">
-                    <div className="flex-shrink-0">
+                  
+                 {/* Left Item nav */}
+                  <div className="flex items-center ">
+
+                    {/* Logo */}
+                    <div className="flex-shrink-0 ">
                     <img src={require('./attch_.svg').default} />
                     </div>
                     <div className="hidden md:block">
@@ -71,14 +70,16 @@ export default function Example() {
                     <div className="ml-4 flex items-center md:ml-6">
                       
 
-                      {/* Profile dropdown */}
+                      {/* dropdown setting Project */}
                       <Menu as="div" className="ml-3 relative">
                         <div>
-                          <Menu.Button className="p-1 bg-gray-800 rounded-sm  text-gray-400 items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                            <span className="sr-only">Open user menu</span>
-                            <BellIcon className="h-6 w-6" aria-hidden="true" />
+                          <Menu.Button className="p-1 inline-flex items-center rounded-md  text-gray-800 items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white  hover:bg-gray-700 hover:text-white">
+                          <span className='p-2 font-medium text-sm' >Michelle's Project</span>
+                            <ViewGridIcon className="h-6 w-6" aria-hidden="true" />
                           </Menu.Button>
                         </div>
+
+                     
                         <Transition
                           as={Fragment}
                           enter="transition ease-out duration-100"
